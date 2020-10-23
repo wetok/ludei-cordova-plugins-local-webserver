@@ -29,6 +29,7 @@ var old_content_src_value;
 
 module.exports = function(context) {
     var config_xml = path.join(context.opts.projectRoot, 'config.xml');
+    //var et = context.requireCordovaModule('elementtree');   
     var et = require('elementtree');
 
     var data = fs.readFileSync(config_xml).toString();
