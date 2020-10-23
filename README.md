@@ -1,3 +1,11 @@
+# CHANGE!!!
+
+This replaces the context.requestCordovaModule for just require.
+It avoids the error "using requirecordovamodule to load non-cordova module" when adding this plugin to the project if you are using Cordova 9+.
+
+This plugin is originally forked from https://github.com/ludei/cordova-plugins
+
+
 # Cordova Local WebServer
 
 This Apache Cordova plugin will install a local web server in your iOS app, and will serve the contents of your `www` directory, looking for an index page of `index.html`.
